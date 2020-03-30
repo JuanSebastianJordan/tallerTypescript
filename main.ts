@@ -12,7 +12,7 @@ btnfilterByName.onclick = () => applyFilterByName();
 
 renderCoursesInTable(dataCourses);
 
-totalCreditElm.innerHTML = `${getTotalCredits(dataCourses)}`
+totalCreditElm.innerHTML = `${"Total Creditos:     "+getTotalCredits(dataCourses)}`
 
 
 function renderCoursesInTable(courses: Course[]): void {
